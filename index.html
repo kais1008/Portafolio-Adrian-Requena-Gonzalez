@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Portfolio Personal</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Inicio">🏠 Inicio</a></li>
+        <li><a href="contacto.html" title="Contacto">✉️ Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <img src="./IMG/Adrian RG.png" alt="Foto de perfil de Adrián Requena González" width="150">
+      <p>¡Hola! Soy Adrián Requena González, tengo 19 años y soy de Almería. Soy un apasionado por la informática y, sobre todo, por la Planificación y Administración de redes 🛜.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li><i class="fas fa-check"></i> HTML5</li>
+        <li><i class="fas fa-check"></i> CSS3</li>
+        <li><i class="fas fa-check"></i> JavaScript Básico</li>
+        <li><i class="fas fa-check"></i> Manejo de Packet tracert</li>
+        <li><i class="fas fa-check"></i> MYSQL</li>
+        <li><i class="fas fa-check"></i> MARIADB</li>
+      </ul>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Empresa</th>
+            <th>Puesto</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Colaborador de una página web</td>
+            <td>Programador</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Prácticas Ayuntamiento</td>
+            <td>Técnico Informático</td>
+            <td>2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="carrusel">
+        <h2>Galería de Imágenes</h2>
+        <div class="carrusel-contenedor">
+            <button class="carrusel-btn prev">&#10094;</button>
+            <div class="carrusel">
+                <img src="./IMG/lenguaje-programacion-sql-800x450.2e16d0ba.fill-767x384.jpg" alt="Imagen 1">
+                <img src="./IMG/html5.jpg" alt="Imagen 2">
+                <img src="./IMG/images.jpg" alt="Imagen 3">
+                <img src="./IMG/images.png" alt="Imagen 4">
+                <img src="./IMG/maxresdefault.jpg" alt="Imagen 5">
+                <img src="./IMG/MySQL.jpg" alt="Imagen 6">
+                <img src="./IMG/mariadb.jpg" alt="Imagen 7">
+
+
+            </div>
+            <button class="carrusel-btn next">&#10095;</button>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Adrián Requena González. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
